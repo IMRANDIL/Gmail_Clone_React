@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid whitesmoke;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+
+.header__left > span{
+    margin-left: 8px;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.473);
+    
+}
+
+
+.header__left > img{
+    object-fit: contain;
+    height: 30px;
+    margin-left: 8px;
+   
+}
+
+
+.header__middle{
+    display:flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header__middle > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.header__middle > input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline:none;
+    font-size: medium;
+    background-color: transparent;
+
+}
+
+
+.header__right{
+    display: flex;
+    padding-right: 20px;
+
+}
